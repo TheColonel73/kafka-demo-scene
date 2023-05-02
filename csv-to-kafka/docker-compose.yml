@@ -101,7 +101,7 @@ services:
         # Don't exit
         sleep infinity
     volumes:
-      - $PWD/data:/data
+      - ./data:/data
 
   ksqldb:
     image: confluentinc/ksqldb-server:0.15.0
